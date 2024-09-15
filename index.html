@@ -4,18 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Application Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Sisonke Tutoring and Mentorsip Organisation</h1>
-    <h2>Learner Application Form</h2>
+  <header>
+     <img src="src/logo.jpg" alt="" target="_blank">
+     
+       <h1>Sisonke Tutoring and Mentorship Organisation</h1>
+
+ </header>
+
 <div class="container" id="container">
+  <h2>Learner Application Form</h2>
   <form action="">
 
    <fieldset>
      <legend> Learner's Personal Information</legend>
 
-     <Label>Are you returning learner</Label>
+     <Label>Are you returning learner:</Label>
      <div class="">
         
         <label for="">Yes</label>
@@ -24,31 +33,35 @@
         <input type="radio" value="No">
      </div>
 
-     <div class="name">
-       <label for="name">First Name</label>  
-       <input type="text" class="first name" id="first-name"  required Placeholder="Luhle">
-       <label for="surname">Last Name</label>   
-       <input type="text" class="first name" id="first-name" required Placeholder="Sithole">
-     </div>
-
      <div class="identity">
-      <label for="">Identity number</label>
-      <input type="text" class="" id=""required>
-      <label for="">Gender</label> 
-      
-      <select name="Gender" id="gender">
+
+   
+        <label for="" class="title">Title:</label> 
+        <select name="Gender" id="title">
         <option value="Select gender">Select</option>
-        <option value="Female">Female</option>
-        <option value="Male">Male</option>
-        <option value="other">Other</option>
-      </select>
+        <option value="Female">Miss</option>
+        <option value="Male">Mr</option>
+        
+      </select> <br>
+      <label for="">Identity number:</label>
+      <input type="text" class="" id=""required>
+     
+    
+     </div>
+     <div class="name">
+       <label for="name">Full Name:</label>  
+       <input type="text" class="first name" id="first-name"  required Placeholder="Luhle">
+        
+       <input type="text" class="last-name" id="first-name" required Placeholder="Sithole">
      </div>
 
+     
+    
      <div class="Contacts">
-      <label for="">Email address</label> 
-      <input type="email" class="email" id="email" required>
-      <label for="">Contact number</label> 
-      <input type="tel" class="contact-number" required id="contact-number">
+       <label for="">Email address:</label> 
+       <input type="email" class="email" id="email" required>
+       <label for="" class="contact-number">Contact number:</label> 
+       <input type="tel" required id="contact-number">
      </div>
   </fieldset>
 
@@ -56,23 +69,23 @@
    <legend> Parent/ Guardian Information </legend> 
 
     <div class="name">
-       <label for="name">First Name</label>   
+       <label for="name">First Name:</label>   
        <input type="text" class="first name" id="first-name"  required Placeholder="Ntando">
-       <label for="surname">Last Name</label>  
+       <label for="surname" class="surname">Last Name:</label>  
        <input type="text" class="first name" id="first-name" required Placeholder="Mthethwa">
     </div>
   
     <div class="parent-contacts">
-       <label for="">Email address</label> 
+       <label for="">Email address:</label> 
        <input type="email" class="email" id="Email" required>
-       <label for="">Contact number</label> 
-       <input type="tel" class="contact-number" id="contact-number" required>
+       <label for="" class="contact-number">Contact number:</label> 
+       <input type="tel"  id="contact-number" required>
     </div>
   </fieldset>
 
   <fieldset>
     <legend>Education Information</legend>
-       <label for="">Name of School:</label> 
+       <label for="">Name of your School:</label> 
        <input type="text" class="school" id="school" required>
 
        <label for="number">Grade:</label>

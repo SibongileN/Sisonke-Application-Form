@@ -8,70 +8,272 @@
 <body>
     <h1>Sisonke Tutoring and Mentorsip Organisation</h1>
     <h2>Learner Application Form</h2>
-Learner's Personal Information
-<br>
 
-<div class="">
-  <Label>Are you returning learner</Label>
-  <input type="radio" value="Yes">
-  <input type="radio" value="No">
-</div>
+<form action="">
 
-    <div class="name">
-      <label for="name">First Name</label>  
-      <input type="text" class="first name" id="first-name"  required Placeholder="Luhle">
-      <label for="surname">Last Name</label>  
-      <input type="text" class="first name" id="first-name" required Placeholder="Sithole">
-    </div>
+  <fieldset>
+     <legend> Learner's Personal Information</legend>
 
-    <div class="identity">
+     <Label>Are you returning learner</Label>
+     <div class="">
+        
+        <label for="">Yes</label>
+        <input type="radio" value="Yes">
+        <label for="">No</label>
+        <input type="radio" value="No">
+     </div>
+
+     <div class="name">
+       <label for="name">First Name</label>  
+       <input type="text" class="first name" id="first-name"  required Placeholder="Luhle">
+       <label for="surname">Last Name</label>   
+       <input type="text" class="first name" id="first-name" required Placeholder="Sithole">
+     </div>
+
+     <div class="identity">
       <label for="">Identity number</label>
       <input type="text" class="" id=""required>
-      <label for="">Gender</label>
+      <label for="">Gender</label> 
       
       <select name="Gender" id="gender">
         <option value="Select gender">Select</option>
-       <option value="Female">Female</option>
-       <option value="Male">Male</option>
-       <option value="other">Other</option>
+        <option value="Female">Female</option>
+        <option value="Male">Male</option>
+        <option value="other">Other</option>
       </select>
-    </div>
+     </div>
 
-    <div class="Contacts">
-      <label for="">Email address</label>
-      <input type="text" class="email" id="email" required>
-      <label for="">Contact number</label>
-      <input type="number" class="contact-number" required id="contact-number">
+     <div class="Contacts">
+      <label for="">Email address</label> 
+      <input type="email" class="email" id="email" required>
+      <label for="">Contact number</label> 
+      <input type="tel" class="contact-number" required id="contact-number">
+     </div>
+  </fieldset>
+
+<fieldset>
+   <legend> Parent/ Guardian Information </legend> 
+
+    <div class="name">
+       <label for="name">First Name</label>   
+       <input type="text" class="first name" id="first-name"  required Placeholder="Ntando">
+       <label for="surname">Last Name</label>  
+       <input type="text" class="first name" id="first-name" required Placeholder="Mthethwa">
     </div>
-    <br>
-Parent/ Guardian Information
-<br>
-<div class="name">
-  <label for="name">First Name</label>  
-  <input type="text" class="first name" id="first-name"  required Placeholder="Ntando">
-  <label for="surname">Last Name</label>  
-  <input type="text" class="first name" id="first-name" required Placeholder="Mthethwa">
-</div>
   
     <div class="parent-contacts">
-      <label for="">Email address</label>
-      <input type="text" class="email" id="contact-number" required>
-      <label for="">Contact number</label>
-      <input type="number" class="contact-number" id="contact-number" required>
+       <label for="">Email address</label> 
+       <input type="email" class="email" id="Email" required>
+       <label for="">Contact number</label> 
+       <input type="tel" class="contact-number" id="contact-number" required>
     </div>
+</fieldset>
 
-    <br>
-    Services Required
+<fieldset>
+    <legend>Education Information</legend>
+       <label for="">Name of School:</label> 
+       <input type="text" class="school" id="school" required>
+
+       <label for="number">Grade:</label>
+       <select name="" id="grade">
+           <option value="Select">Select</option>
+           <option value="8">8</option>
+           <option value="9">9</option>
+           <option value="10">10</option>
+           <option value="11">11</option>
+           <option value="10">10</option>
+       </select>
+
+       <table>
+        <tr>
+          <th>Subject</th>
+          <th>Percentage %</th>
+        </tr>
+        <tr>
+          <td>
+            <input type="text">
+          </td>
+          <td>
+            <select name="" id="subjects">
+              <option value="Select">Select</option>
+              <option value="80-100">80-100</option>
+              <option value="70-79">70-79</option>
+              <option value="60-69">60-69</option>
+              <option value="50-59">50-59</option>
+              <option value="40-49">40-49</option>
+              <option value="30-39">30-39</option>
+              <option value="0-29">0-29</option>
+          </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="text">
+          </td>
+          <td>
+            <select name="" id="subjects">
+              <option value="Select">Select</option>
+              <option value="80-100">80-100</option>
+              <option value="70-79">70-79</option>
+              <option value="60-69">60-69</option>
+              <option value="50-59">50-59</option>
+              <option value="40-49">40-49</option>
+              <option value="30-39">30-39</option>
+              <option value="0-29">0-29</option>
+          </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="text">
+          </td>
+          <td>
+            <select name="" id="subjects">
+              <option value="Select">Select</option>
+              <option value="80-100">80-100</option>
+              <option value="70-79">70-79</option>
+              <option value="60-69">60-69</option>
+              <option value="50-59">50-59</option>
+              <option value="40-49">40-49</option>
+              <option value="30-39">30-39</option>
+              <option value="0-29">0-29</option>
+          </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="text">
+          </td>
+          <td>
+            <select name="" id="subjects">
+              <option value="Select">Select</option>
+              <option value="80-100">80-100</option>
+              <option value="70-79">70-79</option>
+              <option value="60-69">60-69</option>
+              <option value="50-59">50-59</option>
+              <option value="40-49">40-49</option>
+              <option value="30-39">30-39</option>
+              <option value="0-29">0-29</option>
+          </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="text">
+          </td>
+          <td>
+            <select name="" id="subjects">
+              <option value="Select">Select</option>
+              <option value="80-100">80-100</option>
+              <option value="70-79">70-79</option>
+              <option value="60-69">60-69</option>
+              <option value="50-59">50-59</option>
+              <option value="40-49">40-49</option>
+              <option value="30-39">30-39</option>
+              <option value="0-29">0-29</option>
+          </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="text">
+          </td>
+          <td>
+            <select name="" id="subjects">
+              <option value="Select">Select</option>
+              <option value="80-100">80-100</option>
+              <option value="70-79">70-79</option>
+              <option value="60-69">60-69</option>
+              <option value="50-59">50-59</option>
+              <option value="40-49">40-49</option>
+              <option value="30-39">30-39</option>
+              <option value="0-29">0-29</option>
+          </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="text">
+          </td>
+          <td>
+            <select name="" id="subjects">
+              <option value="Select">Select</option>
+              <option value="80-100">80-100</option>
+              <option value="70-79">70-79</option>
+              <option value="60-69">60-69</option>
+              <option value="50-59">50-59</option>
+              <option value="40-49">40-49</option>
+              <option value="30-39">30-39</option>
+              <option value="0-29">0-29</option>
+          </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="text">
+          </td>
+          <td>
+            <select name="" id="subjects">
+              <option value="Select">Select</option>
+              <option value="80-100">80-100</option>
+              <option value="70-79">70-79</option>
+              <option value="60-69">60-69</option>
+              <option value="50-59">50-59</option>
+              <option value="40-49">40-49</option>
+              <option value="30-39">30-39</option>
+              <option value="0-29">0-29</option>
+          </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="text">
+          </td>
+          <td>
+            <select name="" id="subjects">
+              <option value="Select">Select</option>
+              <option value="80-100">80-100</option>
+              <option value="70-79">70-79</option>
+              <option value="60-69">60-69</option>
+              <option value="50-59">50-59</option>
+              <option value="40-49">40-49</option>
+              <option value="30-39">30-39</option>
+              <option value="0-29">0-29</option>
+          </select>
+          </td>
+        </tr>
+
+
+       </table>
+
+ 
+
+</fieldset>
+ 
+<fieldset>
+    <legend>Services Required</legend> 
     
     <div class="service-type">
-    <Label>Tutoring</Label>
-    <input type="radio">
-  
-    <Label>Mentorship</Label>
-    <input type="radio">
-  </div>
+       <Label>Tutoring</Label>
+       <input type="radio">
+       <Label>Mentorship</Label>
+       <input type="radio">
+   </div>
 
-  For Tutoring, please provide subjects you need asistance with below:
+    <p1> For Tutoring, please provide subjects you need asistance with below:</p1>
+    <div><input type="text" class="tutoring-subject" id="tutoring-subject" ></div>
+    <div><input type="text" class="tutoring-subject" id="tutoring-subject" ></div>
+    <div><input type="text" class="tutoring-subject" id="tutoring-subject" ></div>
+    <div><input type="text" class="tutoring-subject" id="tutoring-subject" ></div>
 
+    <p2>Please give a brief description of the goals you wish to attain from the programme selected:</p2>
+    <textarea name="goals" id="goals" maxlength="100"></textarea>
+
+ 
+</fieldset>
+<p3><strong>Please read the <a href="#">terms and conditions</a> before you submit.</strong></p3><br>
+<input type="checkbox" required> <label for="">I have read the terms and I agree.</label>
+</form>
 </body>
 </html>

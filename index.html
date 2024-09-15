@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Application Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Sisonke Tutoring and Mentorsip Organisation</h1>
     <h2>Learner Application Form</h2>
+<div class="container" id="container">
+  <form action="">
 
-<form action="">
-
-  <fieldset>
+   <fieldset>
      <legend> Learner's Personal Information</legend>
 
      <Label>Are you returning learner</Label>
@@ -51,7 +52,7 @@
      </div>
   </fieldset>
 
-<fieldset>
+  <fieldset>
    <legend> Parent/ Guardian Information </legend> 
 
     <div class="name">
@@ -67,9 +68,9 @@
        <label for="">Contact number</label> 
        <input type="tel" class="contact-number" id="contact-number" required>
     </div>
-</fieldset>
+  </fieldset>
 
-<fieldset>
+  <fieldset>
     <legend>Education Information</legend>
        <label for="">Name of School:</label> 
        <input type="text" class="school" id="school" required>
@@ -249,9 +250,9 @@
 
  
 
-</fieldset>
+  </fieldset>
  
-<fieldset>
+  <fieldset>
     <legend>Services Required</legend> 
     
     <div class="service-type">
@@ -271,9 +272,10 @@
     <textarea name="goals" id="goals" maxlength="100"></textarea>
 
  
-</fieldset>
-<p3><strong>Please read the <a href="#">terms and conditions</a> before you submit.</strong></p3><br>
-<input type="checkbox" required> <label for="">I have read the terms and I agree.</label>
-</form>
+  </fieldset>
+   <p3><strong>Please read the <a href="#">terms and conditions</a> before you submit.</strong></p3><br>
+   <input type="checkbox" required> <label for="">I have read the terms and I agree.</label>
+  </form>
+</div>
 </body>
 </html>

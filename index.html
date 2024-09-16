@@ -28,32 +28,37 @@
      <div class="">
         
         <label for="">Yes</label>
-        <input type="radio" value="Yes">
+        <input type="radio" value="Yes" name="response">
         <label for="">No</label>
-        <input type="radio" value="No">
+        <input type="radio" value="No" name="response">
      </div>
 
      <div class="identity">
 
    
         <label for="" class="title">Title:</label> 
-        <select name="Gender" id="title">
-        <option value="Select gender">Select</option>
+        <select name="" id="title">
+        <option value="Select">Select</option>
         <option value="Female">Miss</option>
         <option value="Male">Mr</option>
+      </select>
+
+    </div>
+    <div class="name">
+      <label for="f-name">First Name:</label>  
+      <input type="text" class="first name" id="first-name"  required>
+       <label for="l-name">Last Name:</label> 
+      <input type="text" class="last-name" id="l-name" required >
+    </div>
         
-      </select> <br>
-      <label for="">Identity number:</label>
-      <input type="text" class="" id=""required>
+       
+      <label for="id">Identity number:</label>
+      <input type="number" class="id" id="id"required maxlength="13">
+      <label for="dob">Date of birth</label>:</label>
+      <input type="date" class="dob" id="dob"required>
      
     
-     </div>
-     <div class="name">
-       <label for="name">Full Name:</label>  
-       <input type="text" class="first name" id="first-name"  required Placeholder="Luhle">
-        
-       <input type="text" class="last-name" id="first-name" required Placeholder="Sithole">
-     </div>
+    
 
      
     
@@ -61,7 +66,7 @@
        <label for="">Email address:</label> 
        <input type="email" class="email" id="email" required>
        <label for="" class="contact-number">Contact number:</label> 
-       <input type="tel" required id="contact-number">
+       <input type="number" required id="contact-number" maxlength="10">
      </div>
   </fieldset>
 
@@ -79,7 +84,7 @@
        <label for="">Email address:</label> 
        <input type="email" class="email" id="Email" required>
        <label for="" class="contact-number">Contact number:</label> 
-       <input type="tel"  id="contact-number" required>
+       <input type="numbers"  id="contact-number" maxlength="10" required>
     </div>
   </fieldset>
 
@@ -105,7 +110,7 @@
         </tr>
         <tr>
           <td>
-            <input type="text">
+            <input type="text" class="subject" id="subject">
           </td>
           <td>
             <select name="" id="subjects">
@@ -122,7 +127,7 @@
         </tr>
         <tr>
           <td>
-            <input type="text">
+            <input type="text" class="subject" id="subject">
           </td>
           <td>
             <select name="" id="subjects">
@@ -139,7 +144,7 @@
         </tr>
         <tr>
           <td>
-            <input type="text">
+            <input type="text" class="subject" id="subject">
           </td>
           <td>
             <select name="" id="subjects">
@@ -156,7 +161,7 @@
         </tr>
         <tr>
           <td>
-            <input type="text">
+            <input type="text" class="subject" id="subject">
           </td>
           <td>
             <select name="" id="subjects">
@@ -173,7 +178,7 @@
         </tr>
         <tr>
           <td>
-            <input type="text">
+            <input type="text" class="subject" id="subject">
           </td>
           <td>
             <select name="" id="subjects">
@@ -190,7 +195,7 @@
         </tr>
         <tr>
           <td>
-            <input type="text">
+            <input type="text" class="subject" id="subject">
           </td>
           <td>
             <select name="" id="subjects">
@@ -208,7 +213,7 @@
 
         <tr>
           <td>
-            <input type="text">
+            <input type="text" class="subject" id="subject">
           </td>
           <td>
             <select name="" id="subjects">
@@ -225,7 +230,7 @@
         </tr>
         <tr>
           <td>
-            <input type="text">
+            <input type="text" class="subject" id="subject">
           </td>
           <td>
             <select name="" id="subjects">
@@ -242,7 +247,7 @@
         </tr>
         <tr>
           <td>
-            <input type="text">
+            <input type="text" class="subject" id="subject">
           </td>
           <td>
             <select name="" id="subjects">
@@ -282,12 +287,15 @@
     <div><input type="text" class="tutoring-subject" id="tutoring-subject" ></div>
 
     <p2>Please give a brief description of the goals you wish to attain from the programme selected:</p2>
-    <textarea name="goals" id="goals" maxlength="100"></textarea>
-
+    <div class="goals">
+         <textarea name="goals" id="goals" maxlength="100" rows="10" cols="100"></textarea>
+    </div>
  
   </fieldset>
-   <p3><strong>Please read the <a href="#">terms and conditions</a> before you submit.</strong></p3><br>
+   <p3><strong>Please read the <a href="#">terms and conditions</a> before you submit.</strong></p3> <br>
+  
    <input type="checkbox" required> <label for="">I have read the terms and I agree.</label>
+  
   </form>
 </div>
 </body>

@@ -4,9 +4,9 @@ body{
 
 .container{
     background-color: #04103a;
-    width: 1000px;
-    padding: 15px;
-    margin: 0 auto;
+    width: 800px;
+    padding: 40px;
+    margin: 30px auto;
     border-radius: 5px;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
     color: white;
@@ -16,6 +16,8 @@ body{
 
 header{
 display:flex;
+background-color: #f9fef8;
+box-shadow: 0 0 50px rgba(97, 57, 177, 0.08) ;
 }
 
 
@@ -38,4 +40,28 @@ color: #04103a;
 
 legend, h2{
     text-align: center;
+}
+input{
+
+    padding: 5px;
+}
+select{
+    padding: 5px;
+}
+fieldset{padding: 20px;
+margin-top: 25px;
+border-radius: 5px;}
+
+.subject{
+    width: 400px;
+}
+#subjects{
+    width: 180px;
+    text-align: center;
+}
+select{
+    text-align: center;
+}
+label{
+    
 }

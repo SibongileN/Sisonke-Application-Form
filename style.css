@@ -62,6 +62,26 @@ border-radius: 5px;}
 select{
     text-align: center;
 }
-label{
-    
+.submit-button{
+    width: 150px;
+    height: 7vh;
+    font-size: 25px;
+    padding: 10px 8px;
+    display: block;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 8px;
+    background-color: #f9fef8;
+    color: #04103a;
+    border: 3px solid #04103a;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+transition: all 200ms ease-in-out;
+cursor: pointer;
+}
+.submit-button:hover{
+    background-color: #04103a;
+    border: 3px solid #f9fef8;
+    color: #f9fef8;
+    cursor: pointer;
 }

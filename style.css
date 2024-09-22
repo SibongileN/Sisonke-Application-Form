@@ -113,3 +113,17 @@ footer{
   font-size: 20px;
   background-color: #f9fef8;
 }
+
+
+.box{
+    background-color: white;
+    width: 800px;
+    padding: 40px;
+    margin: 30px auto;
+    border-radius: 5px;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    color: white;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 30;
+}

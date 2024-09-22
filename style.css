@@ -122,8 +122,12 @@ footer{
     margin: 30px auto;
     border-radius: 5px;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
-    color: white;
+    color: black ;
     font-size: 25px;
     line-height: 35px;
     font-weight: 30;
+}
+.banking-details{
+    margin-left: 60px;
+    font-weight: 200;
 }

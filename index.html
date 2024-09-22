@@ -28,9 +28,9 @@
      <div id="returning respose">
         
         <label for="">Yes</label>
-        <input type="radio" value="Yes" name="response" id="yes-response">
+        <input type="radio" value="Yes" class="radio" name="response" id="yes-response">
         <label for="">No</label>
-        <input type="radio" value="No" name="response" id="no-response">
+        <input type="radio" value="No" class="radio" name="response" id="no-response">
      </div>
 
      <div class="identity">
@@ -45,45 +45,68 @@
 
     </div>
     <div class="name">
-      <label for="f-name">First Name:</label>  
+      <div class="fname">
+      <label for="f-name">First Name:</label> 
       <input type="text" class="first name" id="first-name"  required>
-       <label for="l-name">Last Name:</label> 
-      <input type="text" class="last-name" id="l-name" required >
     </div>
+      
+      <div class="lname"> 
+      <label for="l-name">Last Name:</label> 
+      
+       <input type="text" class="last-name" id="l-name" required >
+      </div>
+      </div>
         
-       
-      <label for="id">Identity number:</label>
-      <input type="number" class="id" id="id"required maxlength="13">
-      <label for="dob">Date of birth</label>:</label>
-      <input type="date" class="dob" id="dob"required>
-     
+      <div class="id">
+        <div class="id-number">
+         <label for="id">Identity number:</label>
+         <input type="numbers" class="id" id="id"required maxlength="13">
+        </div>
+        <div class="id-dob">
+         <label for="dob">Date of birth</label>:</label>
+         <input type="date" class="dob" id="dob"required>
+       </div>
+      </div>
     
     
 
      
     
-     <div class="Contacts">
-       <label for="">Email address:</label> 
-       <input type="email" class="email" id="email" required>
-       <label for="" class="contact-number">Contact number:</label> 
+     <div class="lcontacts">
+
+      <div class="email">
+       <label for="">Email address:</label>
+      <input type="email" class="email" id="email" required>
+    </div>
+
+    <div class="phone">
+      <label for="" class="contact-number">Contact number:</label> 
        <input type="number" required id="contact-number" maxlength="10">
      </div>
+    </div>
   </fieldset>
 
   <fieldset>
    <legend> Parent/ Guardian Information </legend> 
 
     <div class="name">
+      <div class="fname">
        <label for="name">First Name:</label>   
        <input type="text" class="first name" id="first-name"  required Placeholder="Ntando">
+      </div>
+      <div class="lname">
        <label for="surname" class="surname">Last Name:</label>  
        <input type="text" class="first name" id="first-name" required Placeholder="Mthethwa">
+    
+      </div> 
     </div>
   
     <div class="parent-contacts">
+      <div class="email">
        <label for="">Email address:</label> 
        <input type="email" class="email" id="Email" required>
-       <label for="" class="contact-number">Contact number:</label> 
+      </div>
+       <label for="" class="phone">Contact number:</label> 
        <input type="numbers"  id="contact-number" maxlength="10" required>
     </div>
   </fieldset>
@@ -275,9 +298,9 @@
     
     <div class="service-type">
        <Label>Tutoring</Label>
-       <input type="radio">
+       <input type="radio" class="radio">
        <Label>Mentorship</Label>
-       <input type="radio">
+       <input type="radio" class="radio">
    </div>
 
     <p1> For Tutoring, please provide subjects you need asistance with below:</p1>
@@ -294,7 +317,7 @@
   </fieldset>
    <p3><strong>Please read the <a href="#">terms and conditions</a> before you submit.</strong></p3> <br>
   
-   <input type="checkbox" required> <label for="">I have read the terms and I agree.</label>
+   <input type="checkbox" required class="radio"> <label for="">I have read the terms and I agree.</label>
   
   </form>
 

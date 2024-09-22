@@ -1,5 +1,5 @@
 
-alert("Please ensure you have a gurdian or parent assisting you with the application.")
+alekkrt("Pease ensure you have a gurdian or parent assisting you with the application.")
 
 
 function welcomeReturner(event){
